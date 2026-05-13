@@ -10,4 +10,7 @@
             name
         FROM news_category
     </select>
+    <select id="getCategoryDetailList" parameterType="int" resultType="com.zxjz.info.polo.CategoryDetailData">
+        select  * from news where category_id = 1
+    </select>
 </mapper>

@@ -1,5 +1,6 @@
 package com.zxjz.info.mapper;
 
+import com.zxjz.info.polo.CategoryDetailData;
 import com.zxjz.info.polo.InfoCategoryData;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -13,4 +14,5 @@ public interface InfoMapper {
     List<InfoCategoryData> getInfoCategoryList();
 
 
+    List<CategoryDetailData> getCategoryDetailList(Integer id);
 }
